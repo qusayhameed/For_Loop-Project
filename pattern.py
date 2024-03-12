@@ -8,4 +8,5 @@ for i in range(1,j):
     if i<= highest_stars_numbers:
         print("*" * i)
     else:
-        print("*" * (j-i))
+        sub_high = j-i
+        print("*" * (sub_high))
